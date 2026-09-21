@@ -13,7 +13,6 @@ goto :eof
 
 :child
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0script.ps1" -OpenShell
-if errorlevel 1 goto :eof
 goto :eof
 
 :buildask
